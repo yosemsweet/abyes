@@ -14,14 +14,13 @@ Installation on a Vertex.ai Workbench
 ============
 * Spin up a new user managed notebook: https://console.cloud.google.com/vertex-ai/workbench/ (TODO: Terraform + docker image, this will replace the install steps below)
 * Connect to the notebook
-* Install abyes
+* Install abyes::
 
-```
-# Open a terminal. 
-git clone https://github.com/cbellei/abyes.git
-cd abyes
-make init
-```
+    # Open a terminal
+    git clone https://github.com/cbellei/abyes.git
+    cd abyes
+    make init
+        
 * Restart the notebook kernal (under `Kernel` menu)
 * To check that the package has been installed, in the Python shell type::
 
